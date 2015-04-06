@@ -1,0 +1,12 @@
+D:\Github\C#\MVC_Hibernate\Entidade\bin\Debug\Entidade.dll
+D:\Github\C#\MVC_Hibernate\Entidade\bin\Debug\Entidade.pdb
+D:\Github\C#\MVC_Hibernate\Entidade\bin\Debug\FluentNHibernate.dll
+D:\Github\C#\MVC_Hibernate\Entidade\bin\Debug\Iesi.Collections.dll
+D:\Github\C#\MVC_Hibernate\Entidade\bin\Debug\NHibernate.dll
+D:\Github\C#\MVC_Hibernate\Entidade\bin\Debug\FluentNHibernate.pdb
+D:\Github\C#\MVC_Hibernate\Entidade\bin\Debug\FluentNHibernate.xml
+D:\Github\C#\MVC_Hibernate\Entidade\bin\Debug\Iesi.Collections.xml
+D:\Github\C#\MVC_Hibernate\Entidade\bin\Debug\NHibernate.xml
+D:\Github\C#\MVC_Hibernate\Entidade\obj\Debug\Entidade.csprojResolveAssemblyReference.cache
+D:\Github\C#\MVC_Hibernate\Entidade\obj\Debug\Entidade.dll
+D:\Github\C#\MVC_Hibernate\Entidade\obj\Debug\Entidade.pdb

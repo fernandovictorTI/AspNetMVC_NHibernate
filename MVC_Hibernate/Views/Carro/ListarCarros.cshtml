@@ -1,0 +1,30 @@
+﻿@model MVC_Hibernate.Models.CarroView
+
+<h3>Lista de Marcas</h3>
+
+<hr />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Marca</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <thead>
+        @foreach (var carro in ViewBag.Carros)
+        {
+            <tr>
+                <td>@carro.Nome</td>
+                <td>@carro.Preco</td>
+                <td>@carro.MarcaCarro.Nome</td>
+                <td width="15%">
+                    @Html.ActionLink("Editar", "EditarCarro", "Carro", new { idCarro = carro.Id }, new { @class = "btn btn-sm btn-primary" })
+                    @Html.ActionLink("Excluir", "ExcluirCarro", "Carro", new { idCarro = carro.Id }, new { @class = "btn btn-sm btn-danger" })
+                </td>
+            </tr>
+        }
+    </thead>
+</table>

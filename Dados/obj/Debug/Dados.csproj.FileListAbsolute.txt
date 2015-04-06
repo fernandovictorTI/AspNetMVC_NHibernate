@@ -1,0 +1,14 @@
+D:\Github\C#\MVC_Hibernate\Dados\bin\Debug\Dados.dll
+D:\Github\C#\MVC_Hibernate\Dados\bin\Debug\Dados.pdb
+D:\Github\C#\MVC_Hibernate\Dados\bin\Debug\Entidade.dll
+D:\Github\C#\MVC_Hibernate\Dados\bin\Debug\FluentNHibernate.dll
+D:\Github\C#\MVC_Hibernate\Dados\bin\Debug\Iesi.Collections.dll
+D:\Github\C#\MVC_Hibernate\Dados\bin\Debug\NHibernate.dll
+D:\Github\C#\MVC_Hibernate\Dados\bin\Debug\Entidade.pdb
+D:\Github\C#\MVC_Hibernate\Dados\bin\Debug\FluentNHibernate.pdb
+D:\Github\C#\MVC_Hibernate\Dados\bin\Debug\FluentNHibernate.xml
+D:\Github\C#\MVC_Hibernate\Dados\bin\Debug\Iesi.Collections.xml
+D:\Github\C#\MVC_Hibernate\Dados\bin\Debug\NHibernate.xml
+D:\Github\C#\MVC_Hibernate\Dados\obj\Debug\Dados.csprojResolveAssemblyReference.cache
+D:\Github\C#\MVC_Hibernate\Dados\obj\Debug\Dados.dll
+D:\Github\C#\MVC_Hibernate\Dados\obj\Debug\Dados.pdb

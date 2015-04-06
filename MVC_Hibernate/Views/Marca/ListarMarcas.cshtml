@@ -1,0 +1,26 @@
+﻿@model MVC_Hibernate.Models.MarcaView
+           
+<h3>Lista de Marcas</h3>
+
+<hr/>
+
+<table class="table table-bordered" >
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <thead>
+        @foreach (var marca in ViewBag.Marcas)
+        {
+            <tr>
+                <td>@marca.Nome</td>
+                <td width="15%">
+                    @Html.ActionLink("Editar","EditarMarca","Marca",new { idMarca = marca.Id }, new {@class = "btn btn-sm btn-primary"})
+                    @Html.ActionLink("Excluir", "ExcluirMarca", "Marca", new { idMarca = marca.Id }, new { @class = "btn btn-sm btn-danger" })
+                </td>
+            </tr>
+        }
+    </thead>
+</table>

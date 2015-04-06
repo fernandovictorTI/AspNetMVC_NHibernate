@@ -1,0 +1,29 @@
+﻿@model MVC_Hibernate.Models.MarcaView
+           
+@using (@Html.BeginForm("Cadastrar", "Marca", FormMethod.Post))
+{
+    string titulo = Model.Id > 0 ? "Editar" : "Cadastrar";
+    
+    <h3>@titulo Marca</h3>
+    
+    <hr />
+    
+    @Html.TextBoxFor(x=>x.Id,new {@class = "hidden"})
+    
+    <div class="form-group">
+        @Html.LabelFor(x=>x.Nome, "Nome: ")
+        @Html.TextBoxFor(x=>x.Nome,new {@class = "form-control"})
+        @Html.ValidationMessageFor(x=>x.Nome)
+    </div>
+    
+    <div class="form-group">
+        @Html.LabelFor(x => x.Descricao, "Descrição: ")
+        @Html.TextAreaFor(x => x.Descricao, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Descricao)
+    </div>
+    
+    <hr />
+    
+    <input type="submit" value="@titulo" class="btn btn-sm btn-primary" />
+    
+}

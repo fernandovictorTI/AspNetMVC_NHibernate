@@ -1,0 +1,34 @@
+﻿@model MVC_Hibernate.Models.CarroView
+           
+@using (@Html.BeginForm("Cadastrar", "Carro", FormMethod.Post))
+{
+    string titulo = Model.Id > 0 ? "Editar" : "Cadastrar";
+
+    <h3>@titulo Carro</h3>
+
+    <hr />
+    
+    @Html.TextBoxFor(x=>x.Id,new {@class = "hidden"})
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.Nome, "Nome")
+        @Html.TextBoxFor(x => x.Nome, new {@class = "form-control"})
+        @Html.ValidationMessageFor(x => x.Nome)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.Preco, "Preço")
+        @Html.TextBoxFor(x => x.Preco, new {@class = "form-control"})
+        @Html.ValidationMessageFor(x => x.Preco)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.IdMarca, "Marca")
+        @Html.DropDownListFor(x => x.IdMarca, new SelectList(ViewBag.Marcas, "Id", "Nome"), new {@class = "form-control"})
+        @Html.ValidationMessageFor(x => x.IdMarca)
+    </div>
+
+    <hr/>
+
+    <input type="submit" value="@titulo" class="btn btn-sm btn-success" />
+}
